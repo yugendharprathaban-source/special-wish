@@ -1,12 +1,27 @@
 const message =
-`You are someone who deserves all the happiness,
-all the beautiful moments,
-and all the reasons to smile.
+`Hey ❤️
 
-May every new day bring something wonderful
-into your life.
+Indha website unakkaga mattum create pannadhu.
 
-Keep being the amazing person you are. ❤️`;
+Namma rendu perum irruntha antha small small moments
+ enakku romba pudikum.
+
+Na therinjo theriyamaloo unnaku neraiya kastatha kuduthuruken but na enna pannalumee enna vitu pogama 
+atha ellathaiyum thangitu enkudavee irruka ennakunu kedacha oru pokisam na athu nee mattum thaa unna eppothumee life la miss panna matten .
+
+Na unnakaga enna mathikuren unnaku pudichavana maruren inimel unnaku entha kastamu varama na unna pathirama pathupen maa 
+
+Nee un career la evaloo thooram poonalum seri i always keep supporting to you maa 
+and i alway be with you 
+
+lifelong nama happy ahh irruka pora antha moments namaku eppothumee special ahh irrukanum nama 
+jolly ahh ella edathukum poi nalla oor suthanum 
+
+ennaku nee eppothumee santhosama irrukanum dii thangoo 
+
+love youu diii thangamylluuu 
+
+Keep smiling always ❤️`;
 
 let index = 0;
 
