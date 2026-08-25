@@ -1,79 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>A Special Wish ❤️</title>
+    <title>A Little Something For You ❤️</title>
 
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Parisienne&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-heart">♥</div>
+        <p>Preparing something special...</p>
+    </div>
+
+
     <!-- Floating Hearts -->
-    <div class="hearts"></div>
+    <div id="hearts"></div>
+
 
     <!-- HERO -->
+
     <section class="hero">
+
+        <div class="hero-overlay"></div>
 
         <div class="hero-content">
 
-            <p class="small-title">A LITTLE SURPRISE FOR YOU</p>
+            <div class="tiny-heart">♡</div>
 
-            <h1>
-    For My<br>
-    <span>Special Person ❤️</span>
-</h1>
-
-            <p class="intro">
-                Some memories deserve a beautiful place.
+            <p class="eyebrow">
+                A LITTLE SOMETHING FOR YOU
             </p>
 
-            <button onclick="openSurprise()">
-                Open Your Surprise ✨
+            <h1>
+                You are<br>
+                <span>special.</span>
+            </h1>
+
+            <p class="hero-description">
+                So I made a little corner of the internet
+                just for you. ❤️
+            </p>
+
+            <button class="main-btn" onclick="startExperience()">
+                Open Your Surprise
+                <span>→</span>
             </button>
+
+            <p class="scroll-text">
+                scroll to discover ↓
+            </p>
 
         </div>
 
     </section>
 
 
-    <!-- MEMORIES -->
+    <!-- INTRO -->
+
+    <section class="intro-section">
+
+        <div class="intro-container">
+
+            <p class="eyebrow">
+                DEAR YOU
+            </p>
+
+            <h2>
+                Some people enter our lives<br>
+                and make ordinary moments<br>
+                <em>feel extraordinary.</em>
+            </h2>
+
+            <div class="line"></div>
+
+            <p class="intro-text">
+                This website is a small collection of memories,
+                feelings and moments that deserve to be remembered.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- MAIN PHOTO -->
+
+    <section class="main-photo-section">
+
+        <div class="main-photo">
+
+            <img src="images/photo1.jpg" alt="Our memory">
+
+            <div class="photo-caption">
+                <span>01</span>
+                <p>A moment worth remembering.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MEMORY GRID -->
+
     <section class="memories">
 
-        <p class="section-label">OUR MEMORIES</p>
+        <div class="section-heading">
 
-        <h2>
-            Little Moments,<br>
-            <span>Big Memories</span>
-        </h2>
+            <p class="eyebrow">
+                LITTLE MEMORIES
+            </p>
 
-        <div class="photo-grid">
+            <h2>
+                Moments that<br>
+                <em>stay forever.</em>
+            </h2>
 
-            <div class="photo-card card1">
-                <img src="images/photo1.jpg">
-                <p>One beautiful moment ✨</p>
-            </div>
+        </div>
 
-            <div class="photo-card card2">
+
+        <div class="memory-grid">
+
+            <div class="memory-card tall">
                 <img src="images/photo2.jpg">
-                <p>A memory to keep ❤️</p>
+                <div class="number">02</div>
             </div>
 
-            <div class="photo-card card3">
+            <div class="memory-card">
                 <img src="images/photo3.jpg">
-                <p>Just us & a moment</p>
+                <div class="number">03</div>
             </div>
 
-            <div class="photo-card card4">
+            <div class="memory-card">
                 <img src="images/photo4.jpg">
-                <p>Forever a special memory</p>
+                <div class="number">04</div>
             </div>
 
         </div>
@@ -82,15 +153,23 @@
 
 
     <!-- MESSAGE -->
-    <section class="message-section">
 
-        <div class="message-box">
+    <section class="letter-section">
 
-<p class="small-title">A LITTLE SURPRISE FOR [NAME]</p>
+        <div class="letter">
 
-            <h2>There is something<br>I'd like to say...</h2>
+            <p class="eyebrow">
+                A LETTER FOR YOU
+            </p>
 
-            <p id="typing-text"></p>
+            <h2>
+                If I could say<br>
+                one thing...
+            </h2>
+
+            <div class="typing-area">
+                <p id="message"></p>
+            </div>
 
         </div>
 
@@ -98,58 +177,93 @@
 
 
     <!-- GALLERY -->
+
     <section class="gallery">
 
-        <p class="section-label">OUR LITTLE GALLERY</p>
+        <div class="section-heading center">
 
-        <h2>
-            Moments Worth<br>
-            <span>Remembering 📸</span>
-        </h2>
+            <p class="eyebrow">
+                OUR GALLERY
+            </p>
+
+            <h2>
+                A few more<br>
+                <em>beautiful moments.</em>
+            </h2>
+
+        </div>
+
 
         <div class="gallery-grid">
 
-            <img src="images/photo5.jpg">
-            <img src="images/photo6.jpg">
-            <img src="images/photo7.jpg">
-            <img src="images/photo8.jpg">
+            <div class="gallery-item large">
+                <img src="images/photo5.jpg">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/photo6.jpg">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/photo2.jpg">
+            </div>
 
         </div>
 
     </section>
 
 
-    <!-- FINAL -->
-    <section class="final">
+    <!-- FINAL SURPRISE -->
+
+    <section class="final-section">
 
         <div class="final-content">
 
-            <div class="big-heart">♥</div>
+            <div class="final-heart">
+                ♥
+            </div>
 
-            <p class="section-label">ONE LAST THING</p>
-
-            <h1>
-                Keep Smiling,<br>
-                Keep Shining ✨
-            </h1>
-
-            <p>
-                Wishing you countless beautiful moments,
-                happy memories and reasons to smile.
+            <p class="eyebrow">
+                ONE LAST THING
             </p>
 
-            <button onclick="celebrate()">
-                One More Surprise 🎉
+            <h2>
+                Keep smiling.<br>
+                Keep shining.<br>
+                <em>Keep being you.</em>
+            </h2>
+
+            <p>
+                I hope this little surprise made you smile,
+                even just a little. ❤️
+            </p>
+
+            <button class="surprise-btn" onclick="finalSurprise()">
+                Click For One Last Surprise ✨
             </button>
 
-            <h3 id="final-message"></h3>
+            <div id="finalMessage"></div>
 
         </div>
 
     </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            Made with ❤️ just for you.
+        </p>
+
+        <span>© 2026</span>
+
+    </footer>
 
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
